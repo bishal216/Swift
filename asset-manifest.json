@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Swift/static/css/main.3d90c5b2.css",
-    "main.js": "/Swift/static/js/main.4b4635ad.js",
+    "main.js": "/Swift/static/js/main.ffada060.js",
     "index.html": "/Swift/index.html",
     "main.3d90c5b2.css.map": "/Swift/static/css/main.3d90c5b2.css.map",
-    "main.4b4635ad.js.map": "/Swift/static/js/main.4b4635ad.js.map"
+    "main.ffada060.js.map": "/Swift/static/js/main.ffada060.js.map"
   },
   "entrypoints": [
     "static/css/main.3d90c5b2.css",
-    "static/js/main.4b4635ad.js"
+    "static/js/main.ffada060.js"
   ]
 }
