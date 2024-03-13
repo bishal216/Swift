@@ -46,6 +46,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<SwiftLP />} />
+      <Route path="/Swift" element={<SwiftLP />} />
     </Routes>
   );
 }
