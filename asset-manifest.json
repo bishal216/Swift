@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Swift/static/css/main.af65ff73.css",
-    "main.js": "/Swift/static/js/main.cd81005d.js",
+    "main.css": "/Swift/static/css/main.3d90c5b2.css",
+    "main.js": "/Swift/static/js/main.4b4635ad.js",
     "index.html": "/Swift/index.html",
-    "main.af65ff73.css.map": "/Swift/static/css/main.af65ff73.css.map",
-    "main.cd81005d.js.map": "/Swift/static/js/main.cd81005d.js.map"
+    "main.3d90c5b2.css.map": "/Swift/static/css/main.3d90c5b2.css.map",
+    "main.4b4635ad.js.map": "/Swift/static/js/main.4b4635ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.af65ff73.css",
-    "static/js/main.cd81005d.js"
+    "static/css/main.3d90c5b2.css",
+    "static/js/main.4b4635ad.js"
   ]
 }
