@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Swift/static/css/main.af65ff73.css",
+    "main.js": "/Swift/static/js/main.cd81005d.js",
+    "index.html": "/Swift/index.html",
+    "main.af65ff73.css.map": "/Swift/static/css/main.af65ff73.css.map",
+    "main.cd81005d.js.map": "/Swift/static/js/main.cd81005d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af65ff73.css",
+    "static/js/main.cd81005d.js"
+  ]
+}
