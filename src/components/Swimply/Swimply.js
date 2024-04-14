@@ -1,8 +1,8 @@
-import "./FrameProper.css";
+import "./Swimply.css";
 
-const FrameProper = () => {
+const Swimply = () => {
   return (
-    <section className="frame-proper">
+    <section className="swimply">
       <div className="image-mask">
         <div className="blob-node">
           <h1 className="swift-is-swimply-container">
@@ -143,4 +143,4 @@ const FrameProper = () => {
   );
 };
 
-export default FrameProper;
+export default Swimply;

@@ -1,0 +1,93 @@
+.HomePage {
+  align-self: stretch;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--white);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  background: url('./../../assets/bg.svg') repeat;
+}
+
+.Slogan {
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--coquelicot);
+}
+
+.Title {
+  font-size: var(--text-6xl-font-black-size);
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  font-family: Barlow;
+  font-size: 104px;
+  line-height: 104px;
+  text-align: center;
+}
+
+.CorePrinciples {
+  line-height: 28px;
+  display: inline-block;
+  max-width: 72%;
+  font-family: Barlow;
+  font-size: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.BookButton {
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  display: block;
+  font-family: Barlow;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: var(--coquelicot);
+  color: var(--white);
+  text-transform: uppercase;
+  align-self: center;
+  display: inline-block;
+}
+
+
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  gap: 24px;
+  border-radius: 16px;
+  font-size: 21px;
+  font-weight: 400px;
+  line-height: 28px;
+  background: linear-gradient(145.71deg, rgba(58, 63, 63, 0.62) -48.01%, rgba(58, 63, 63, 0) 94.99%);
+  color: var(--gray);
+}
+.card img{
+  height: 32px;
+  width: 32px;
+}
+
+.downanimation img{
+  height: 24px;
+  width: 24px;
+}

@@ -14,8 +14,8 @@
   width: 27px;
   position: relative;
   border-radius: 50%;
-  background-color: var(--night-200);
-  border: 0 solid var(--night-400);
+  background-color: var(--white);
+  border: 0 solid var(--gray);
   box-sizing: border-box;
   z-index: 1;
 }
