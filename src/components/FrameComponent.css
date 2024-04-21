@@ -1,0 +1,70 @@
+.converter-child,
+.swift-icon3 {
+  height: 15.4px;
+  width: 21px;
+  position: relative;
+}
+.swift-icon3 {
+  height: 16px;
+  width: 45.9px;
+}
+.converter1 {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.hamburger-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.converter2 {
+  height: 40px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.combiner1,
+.modifier,
+.navbar-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modifier {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--night-900);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-base);
+}
+.combiner1,
+.navbar-mobile {
+  backdrop-filter: blur(12px);
+  flex-direction: column;
+}
+.navbar-mobile {
+  align-self: stretch;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-5xs);
+}
+.combiner1 {
+  position: absolute;
+  top: 52px;
+  left: calc(50% - 187.5px);
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  width: 375px;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  z-index: 1;
+}

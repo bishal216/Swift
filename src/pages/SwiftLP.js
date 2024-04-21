@@ -1,47 +1,28 @@
-import HomePage from "../components/HomePage/HomePage";
-import Page2 from "../components/Page2/Page2";
-import Swystem from "../components/Swystem/swystem";
-// import BranchNode from "../components/BranchNode";
-import ImageProper from "../components/ImageProper";
-import Swimply from "../components/Swimply/Swimply";
-import ScaleNode from "../components/ScaleNode";
-import DataTransformer from "../components/DataTransformer";
-import VectorNode from "../components/VectorNode";
-import MapNode from "../components/MapNode";
+import NavBar from "../components/01NavBar/NavBar";
+import Header  from "../components/02Header/Header";
+import Subtree from "../components/03GameDevOnTheFly/Subtree";
+import NestedClusters from "../components/04Slow2Swift/NestedClusters";
+import Swystem from "../components/05Swystem/Swystem";
+import FrameProper from "../components/06Swimply/FrameProper";
+import ScaleNode from "../components/07Swchemes/ScaleNode";
+import DataTransformer from "../components/08FAQ/DataTransformer";
+import VectorNode from "../components/09GameFlying/VectorNode";
+import MapNode from "../components/10Footer/MapNode";
 import "./SwiftLP.css";
 
 const SwiftLP = () => {
   return (
     <div className="swift-lp">
-      <HomePage />
-      <Page2 />
-      <Swystem />
-
-      {/* <ImageProper /> */}
-      <Swimply />
+      <NavBar/>
+      <Header />
+      <Subtree />
+      <NestedClusters />
+      <Swystem/>
+      <FrameProper />
       <ScaleNode />
       <DataTransformer />
       <VectorNode />
       <MapNode />
-      <div className="navbar">
-        <div className="navitems-parent">
-          <div className="navitems">
-            <div className="click-link">Problems</div>
-          </div>
-          <div className="navitems1">
-            <div className="click-link1">Solution</div>
-          </div>
-          <div className="navitems2">
-            <div className="click-link2">Services</div>
-          </div>
-          <div className="navitems3">
-            <div className="click-link3">FAQ</div>
-          </div>
-        </div>
-        <div className="button">
-          <div className="button1">book a call</div>
-        </div>
-      </div>
     </div>
   );
 };

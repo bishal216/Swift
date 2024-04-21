@@ -1,0 +1,330 @@
+.ancestor-five-times-removed-no,
+.group-icon4 {
+  position: absolute;
+  top: 4.4px;
+  left: 102.2px;
+  width: 21.2px;
+  height: 4.5px;
+  mix-blend-mode: normal;
+}
+.ancestor-five-times-removed-no {
+  top: 0;
+  left: 97.3px;
+  width: 8.9px;
+  height: 13.4px;
+  z-index: 1;
+}
+.descendant-five-times-removed {
+  position: absolute;
+  top: 136.2px;
+  left: 52.8px;
+  width: 10.2px;
+  height: 6.3px;
+}
+.sibling-five-times-removed-nod {
+  position: absolute;
+  top: 108px;
+  left: 54px;
+  width: 22.7px;
+  height: 30.7px;
+  z-index: 1;
+}
+.uncle-five-times-removed-nodes {
+  position: absolute;
+  top: 79.5px;
+  left: 20.8px;
+  width: 21.7px;
+  height: 1.6px;
+}
+.aunt-five-times-removed-nodes {
+  position: absolute;
+  top: 44.4px;
+  left: 20.9px;
+  width: 10.7px;
+  height: 36.7px;
+  z-index: 1;
+}
+.cousin-five-times-removed-node {
+  position: absolute;
+  top: 53.2px;
+  left: 73.8px;
+  width: 60.1px;
+  height: 60.4px;
+  z-index: 2;
+}
+.ancestor-five-times-removed-no1,
+.ancestor-five-times-removed-no2 {
+  position: absolute;
+  top: 113px;
+  left: 75.5px;
+  width: 9.3px;
+  height: 36.6px;
+  z-index: 3;
+}
+.ancestor-five-times-removed-no2 {
+  left: 112.6px;
+}
+.ancestor-six-times-removed-nod {
+  position: absolute;
+  top: 88.3px;
+  left: 33.4px;
+  width: 79.2px;
+  height: 50.4px;
+  z-index: 4;
+}
+.descendant-six-times-removed-n {
+  position: absolute;
+  top: 24.9px;
+  left: 93.3px;
+  width: 18.2px;
+  height: 22px;
+}
+.sibling-six-times-removed-node {
+  position: absolute;
+  top: 39.6px;
+  left: 78px;
+  width: 50.2px;
+  height: 61.6px;
+  z-index: 5;
+}
+.aunt-six-times-removed-nodes {
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  width: 57.2px;
+  height: 38.7px;
+  z-index: 8;
+}
+.cousin-six-times-removed-nodes {
+  position: absolute;
+  top: 0;
+  left: 33.3px;
+  width: 24.5px;
+  height: 22.4px;
+  z-index: 9;
+}
+.uncle-six-times-removed-nodes {
+  position: absolute;
+  top: 45.2px;
+  left: 54px;
+  width: 57.8px;
+  height: 39.2px;
+}
+.data-aggregator-icon {
+  position: absolute;
+  top: 10.7px;
+  left: 73.3px;
+  width: 28.1px;
+  height: 34.1px;
+  z-index: 6;
+}
+.input-processor-icon {
+  position: absolute;
+  top: 0.7px;
+  left: 0;
+  width: 43.4px;
+  height: 28.4px;
+  z-index: 9;
+}
+.output-handler-icon {
+  position: absolute;
+  top: 0;
+  left: 35.8px;
+  width: 4.7px;
+  height: 2.9px;
+  z-index: 10;
+}
+.tree-structure-icon1 {
+  position: absolute;
+  top: 0.3px;
+  left: 39.8px;
+  width: 2.3px;
+  height: 4.8px;
+  z-index: 11;
+}
+.loop-control-icon {
+  position: absolute;
+  top: 15.3px;
+  left: 27.4px;
+  width: 10.9px;
+  height: 10.9px;
+  z-index: 10;
+}
+.logic-gate1 {
+  position: absolute;
+  top: 3.2px;
+  left: 62.8px;
+  width: 43.4px;
+  height: 29.1px;
+}
+.condition-checker-icon {
+  position: absolute;
+  top: 1.9px;
+  left: 85.1px;
+  width: 11.8px;
+  height: 21.4px;
+  object-fit: contain;
+  z-index: 11;
+}
+.ancestor-five-times-removed-no3 {
+  position: absolute;
+  top: 147.9px;
+  left: 36.1px;
+  width: 27.5px;
+  height: 1.8px;
+  object-fit: contain;
+}
+.variable-holder-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27.1px;
+  height: 8.7px;
+  z-index: 1;
+}
+.error-handler-icon {
+  position: absolute;
+  top: 4px;
+  left: 22.1px;
+  width: 5.4px;
+  height: 4.4px;
+  z-index: 2;
+}
+.sequence-controller-icon {
+  position: absolute;
+  top: 0;
+  left: 2.6px;
+  width: 20.8px;
+  height: 5.8px;
+  z-index: 3;
+}
+.function-caller {
+  position: absolute;
+  top: 139.5px;
+  left: 36.1px;
+  width: 27.5px;
+  height: 8.7px;
+}
+.ancestor-five-times-removed-no4 {
+  position: absolute;
+  top: 147.9px;
+  left: 14.7px;
+  width: 27.5px;
+  height: 1.8px;
+  object-fit: contain;
+  z-index: 2;
+}
+.data-filter-icon,
+.data-transformer-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27.1px;
+  height: 8.7px;
+  z-index: 4;
+}
+.data-transformer-icon {
+  left: 2.6px;
+  width: 20.8px;
+  height: 5.8px;
+  z-index: 6;
+}
+.parallel-processor {
+  position: absolute;
+  top: 139.5px;
+  left: 14.7px;
+  width: 27.1px;
+  height: 8.7px;
+}
+.data-merger-icon {
+  position: absolute;
+  top: 83.6px;
+  left: 29.9px;
+  width: 13.8px;
+  height: 65.9px;
+  z-index: 7;
+}
+.data-sorter-icon {
+  position: absolute;
+  top: 54px;
+  left: 10.1px;
+  width: 29.2px;
+  height: 13.3px;
+  z-index: 6;
+}
+.data-creator-icon,
+.data-finder-icon {
+  position: absolute;
+  top: 42.2px;
+  left: 27.8px;
+  width: 11.5px;
+  height: 17.1px;
+  z-index: 7;
+}
+.data-creator-icon {
+  top: 10.6px;
+  left: 29.8px;
+  width: 12.2px;
+  height: 10.1px;
+}
+.data-splitter,
+.group-icon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 44.5px;
+  height: 73.5px;
+}
+.data-splitter {
+  top: 7.5px;
+  left: 54px;
+}
+.ancestor-five-times-removed-no5 {
+  position: absolute;
+  top: 0.2px;
+  left: 119px;
+  width: 8.9px;
+  height: 13.4px;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.group-icon6 {
+  position: absolute;
+  top: 45.6px;
+  left: 0;
+  width: 20px;
+  height: 4.5px;
+  mix-blend-mode: normal;
+}
+.ancestor-five-times-removed-no6,
+.group-icon7 {
+  position: absolute;
+  top: 25.5px;
+  left: 7.6px;
+  width: 8.9px;
+  height: 13.4px;
+  mix-blend-mode: overlay;
+}
+.group-icon7 {
+  top: 29.9px;
+  left: 12.6px;
+  width: 21.2px;
+  height: 4.5px;
+  mix-blend-mode: normal;
+  z-index: 15;
+}
+.data-deleter-icon {
+  position: absolute;
+  top: 13.9px;
+  left: 23.4px;
+  width: 13.4px;
+  height: 53.7px;
+  z-index: 16;
+}
+.cousin-four-times-removed-node {
+  position: absolute;
+  top: 1486.4px;
+  left: 120px;
+  width: 133.9px;
+  height: 149.7px;
+}

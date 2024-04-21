@@ -1,0 +1,149 @@
+.got-questions1,
+.weve-got-answers1 {
+  align-self: stretch;
+  position: relative;
+}
+.got-questions1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: inherit;
+}
+.weve-got-answers1 {
+  font-size: var(--text-lg-font-normal-size);
+  line-height: 28px;
+  color: var(--night-200);
+}
+.function-call-node {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.how-do-you4 {
+  width: 293px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.union-icon6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.faq4 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--night-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.how-do-you5 {
+  width: 293px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.union-icon7 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.faq5 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--night-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.how-do-you6 {
+  width: 293px;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.union-icon8 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.faq6 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--night-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  white-space: nowrap;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.how-do-you7 {
+  width: 293px;
+  border: 0;
+  outline: 0;
+  font-family: var(--text-body-font-medium-full-caps);
+  font-size: var(--text-body-font-medium-full-caps-size);
+  background-color: transparent;
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--white-smoke);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.union-icon9 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.faq7 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--night-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.error-handler,
+.sequence-node {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--text-body-font-medium-full-caps-size);
+}
+.error-handler {
+  align-items: center;
+  padding: var(--padding-45xl) var(--padding-mini);
+  gap: var(--gap-45xl);
+  z-index: 3;
+  text-align: center;
+  font-size: var(--text-3xl-font-bold-size);
+  color: var(--white-smoke);
+  font-family: var(--text-body-font-medium-full-caps);
+}

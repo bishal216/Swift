@@ -1,0 +1,262 @@
+.but-youre-in1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: linear-gradient(89.9deg, #f23e0d, #fb793c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.km1 {
+  position: absolute;
+  top: 27px;
+  left: 15.9px;
+  display: inline-block;
+  width: 10px;
+  height: 3.7px;
+  z-index: 14;
+}
+.ancestor-twice-removed-nodes,
+.descendant-twice-removed-nodes {
+  position: absolute;
+  top: 29.5px;
+  left: 23.8px;
+  width: 16.2px;
+  height: 16.2px;
+  mix-blend-mode: normal;
+}
+.ancestor-twice-removed-nodes {
+  top: 37.6px;
+  left: 35.4px;
+  width: 7.7px;
+  height: 0.5px;
+  z-index: 1;
+}
+.sibling-twice-removed-nodes {
+  position: absolute;
+  top: 101.5px;
+  left: 23.6px;
+  width: 18.2px;
+  height: 1.6px;
+}
+.uncle-twice-removed-nodes {
+  position: absolute;
+  top: 44.4px;
+  left: 48.6px;
+  width: 12px;
+  height: 16.1px;
+  z-index: 8;
+}
+.aunt-twice-removed-nodes {
+  position: absolute;
+  top: 105.6px;
+  left: 5px;
+  width: 13.8px;
+  height: 4.7px;
+  z-index: 10;
+}
+.cousin-twice-removed-nodes,
+.sibling-thrice-removed-nodes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61.4px;
+  height: 110.3px;
+  mix-blend-mode: color-dodge;
+  z-index: 13;
+}
+.sibling-thrice-removed-nodes {
+  width: 5.4px;
+  height: 10.4px;
+  mix-blend-mode: normal;
+  z-index: 14;
+}
+.descendant-thrice-removed-node,
+.descendant-thrice-removed-node1,
+.descendant-thrice-removed-node2 {
+  position: absolute;
+  top: 8.9px;
+  left: 0.4px;
+  width: 4.5px;
+  height: 0.9px;
+  mix-blend-mode: normal;
+  z-index: 15;
+}
+.descendant-thrice-removed-node1,
+.descendant-thrice-removed-node2 {
+  top: 7.6px;
+}
+.descendant-thrice-removed-node2 {
+  top: 6.2px;
+}
+.descendant-thrice-removed-node3,
+.descendant-thrice-removed-node4,
+.descendant-thrice-removed-node5 {
+  position: absolute;
+  top: 4.9px;
+  left: 0.4px;
+  width: 4.5px;
+  height: 0.9px;
+  mix-blend-mode: normal;
+  z-index: 15;
+}
+.descendant-thrice-removed-node4,
+.descendant-thrice-removed-node5 {
+  top: 3.6px;
+}
+.descendant-thrice-removed-node5 {
+  top: 2.2px;
+}
+.ancestor-thrice-removed-nodes {
+  position: absolute;
+  top: 35.3px;
+  left: 8px;
+  width: 5.4px;
+  height: 10.4px;
+}
+.ancestor-twice-removed-nodes1,
+.ancestor-twice-removed-nodes2,
+.ancestor-twice-removed-nodes3 {
+  position: absolute;
+  top: 26.4px;
+  left: 31.9px;
+  width: 0.5px;
+  height: 7.7px;
+  mix-blend-mode: normal;
+  z-index: 14;
+}
+.ancestor-twice-removed-nodes2,
+.ancestor-twice-removed-nodes3 {
+  top: 41.1px;
+}
+.ancestor-twice-removed-nodes3 {
+  top: 37.6px;
+  left: 20.7px;
+  width: 7.7px;
+  height: 0.5px;
+}
+.aunt-thrice-removed-nodes,
+.aunt-thrice-removed-nodes1 {
+  position: absolute;
+  top: 2.8px;
+  left: 3.7px;
+  width: 1.9px;
+  height: 1.7px;
+  mix-blend-mode: normal;
+  z-index: 14;
+}
+.aunt-thrice-removed-nodes1 {
+  top: 5.7px;
+}
+.aunt-thrice-removed-nodes2,
+.aunt-thrice-removed-nodes3 {
+  position: absolute;
+  top: 4.1px;
+  left: 5.3px;
+  width: 1.7px;
+  height: 1.9px;
+  mix-blend-mode: normal;
+  z-index: 15;
+}
+.aunt-thrice-removed-nodes3 {
+  left: 2.4px;
+}
+.cousin-thrice-removed-nodes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9.3px;
+  height: 10.7px;
+  mix-blend-mode: overlay;
+  z-index: 16;
+}
+.uncle-thrice-removed-nodes {
+  position: absolute;
+  top: 32.5px;
+  left: 27.2px;
+  width: 9.3px;
+  height: 10.7px;
+}
+.ancestor-four-times-removed-no {
+  position: absolute;
+  top: 75.1px;
+  left: 17.3px;
+  width: 15px;
+  height: 4.1px;
+  z-index: 14;
+}
+.sibling-four-times-removed-nod,
+.uncle-four-times-removed-nodes {
+  position: absolute;
+  top: 0.6px;
+  left: 0;
+  width: 30.2px;
+  height: 3.4px;
+  mix-blend-mode: overlay;
+  z-index: 14;
+}
+.uncle-four-times-removed-nodes {
+  top: 0;
+  left: 21.7px;
+  width: 8.3px;
+  height: 1.7px;
+  z-index: 15;
+}
+.descendant-four-times-removed {
+  position: absolute;
+  top: 69px;
+  left: 14.9px;
+  width: 30.2px;
+  height: 4px;
+}
+.aunt-four-times-removed-nodes {
+  position: absolute;
+  top: 47.7px;
+  left: 4.4px;
+  width: 8.9px;
+  height: 13.4px;
+  mix-blend-mode: overlay;
+  z-index: 14;
+}
+.cousin-once-removed-twice-node {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.uncle-once-removed-nodes {
+  height: 110.3px;
+  width: 61.4px;
+  position: relative;
+}
+.sibling-once-removed-nodes {
+  width: 321.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xs-5);
+  font-family: var(--text-base-leading-6-font-bold);
+}
+.ancestor-once-removed-nodes {
+  position: absolute;
+  top: 1413px;
+  left: 15px;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl-4);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--text-body-font-medium-full-caps-size);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--text-body-font-medium-full-caps);
+}

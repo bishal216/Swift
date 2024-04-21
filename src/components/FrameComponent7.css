@@ -1,0 +1,37 @@
+.conceptualize {
+  flex: 1;
+  position: relative;
+  line-height: 28px;
+  flex-shrink: 0;
+}
+.branch-node-child {
+  height: 20.3px;
+  width: 20.3px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--night-200);
+  border: 0 solid var(--night-400);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.draft-the-blueprints {
+  flex: 1;
+  position: relative;
+  font-size: var(--text-body-font-medium-full-caps-size);
+  line-height: 24px;
+}
+.branch-node2 {
+  position: absolute;
+  top: 2404px;
+  left: 13px;
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--text-lg-font-normal-size);
+  color: var(--white-smoke);
+  font-family: var(--text-body-font-medium-full-caps);
+}

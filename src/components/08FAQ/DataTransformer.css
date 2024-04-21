@@ -1,0 +1,144 @@
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s linear;
+
+}
+
+.answer.open {
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height 0.1s linear;
+
+}
+
+.got-questions,
+.weve-got-answers {
+  align-self: stretch;
+  position: relative;
+}
+
+.got-questions {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 80px;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+.weve-got-answers {
+  font-size: var(--text-lg-font-normal-size);
+  line-height: 28px;
+  color: var(--night-200);
+}
+
+.filter-node {
+  width: 1128px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+}
+
+.how-do-you {
+  width: 1076px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  max-width: calc(100% - 20px);
+}
+
+.faq {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--night-900);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.question.open{
+  color: var(--coquelicot-600-main);
+}
+.constant-node,
+.data-transformer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.constant-node {
+  width: 1128px;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--text-lg-font-normal-size);
+}
+
+.data-transformer {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-93xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-93xl);
+  text-align: center;
+  font-size: var(--text-5xl-font-black-size);
+  color: var(--white-smoke);
+  font-family: var(--text-body-font-medium-full-caps);
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .data-transformer {
+    gap: var(--gap-37xl);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .got-questions {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+
+  .data-transformer {
+    padding-top: var(--padding-54xl);
+    padding-bottom: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .data-transformer,
+  .filter-node1 {
+    gap: var(--gap-9xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .got-questions {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+
+  .how-do-you,
+  .weve-got-answers {
+    font-size: var(--font-size-mid);
+    line-height: 22px;
+  }
+
+  .data-transformer {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
