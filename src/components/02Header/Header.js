@@ -3,19 +3,16 @@ import { memo } from "react";
 
 const Header = memo(() => {
   return (
-    <>
-      <img
-        className="root-node-child"
-        loading="lazy"
-        alt=""
-        src="/group-36.svg"
-      />
-      <img className="swift-icon" loading="lazy" alt="" src="/swift.svg" />
+    <div className="header">
+      <div className='logo-class'>
+        <img className="main-logo" loading="lazy" alt="" src="/group-36.svg" />
+        <img className="logo-text" loading="lazy" alt="" src="/swift.svg" />
+      </div>
 
       <button className="button6">
         <div className="button7">BOOK A CALL</div>
       </button>
-    </>
+    </div>
   );
 });
 

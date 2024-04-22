@@ -1,6 +1,7 @@
 import { memo } from "react";
 import "./Swystem.css";
 import BranchNode from "./BranchNode";
+import { swystem_data } from "../../data/data";
 const Swystem = memo(() => {
     return (
         <>
@@ -25,45 +26,12 @@ const Swystem = memo(() => {
           src="/line-3-stroke.svg"
         />
       </section>
-      <BranchNode
-        ideate="Ideate"
-        envisionTheSkiesEveryGrea="Envision the skies. Every great flight begins here."
-      />
-      <BranchNode
-        ideate="Conceptualize"
-        envisionTheSkiesEveryGrea="Draft the blueprints for takeoff. Your game's first flap towards the horizon."
-      />
-      <BranchNode
-        ideate="Strategize"
-        envisionTheSkiesEveryGrea="Chart the course. Together, we envision the most efficient route through skies."
-      />
-      <BranchNode
-        ideate="Develop"
-        envisionTheSkiesEveryGrea="Gear up; gather speed. We transform the concepts to dynamic ascents."
-      />
-      <section className="image-proper">
-      <div className="path-proper">
-        <div className="group-proper">
-          <div className="line-proper">
-            <h1 className="release">Release</h1>
-            <div className="star-proper" />
-          </div>
-          <div className="line-proper1">
-            <h1 className="iterate">Iterate</h1>
-            <div className="line-proper-child" />
-          </div>
-        </div>
-        <div className="arc-proper">
-          <div className="takeoff-your-game">
-            Takeoff. Your game soars into the heights of the gaming universe.
-          </div>
-          <div className="harness-the-wind">
-            Harness the wind currents. We continuously clear the air, optimizing
-            for the perfect flight.
-          </div>
-        </div>
-      </div>
-    </section>
+      {swystem_data.system_process.map((process, index) => (
+          <BranchNode
+          ideate={process.key}
+          envisionTheSkiesEveryGrea={process.value}
+        />
+        ))}
       </>
     );
 });

@@ -55,6 +55,7 @@
 .node-families {
   align-items: flex-start;
   z-index: 1;
+  margin: auto;
 }
 
 .ancestor-lines,
@@ -906,6 +907,7 @@
 
 .branch-shrinkage,
 .tree-expansion {
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -936,7 +938,6 @@
   .tree-expansion {
     padding-left: var(--padding-59xl);
     padding-right: var(--padding-59xl);
-    box-sizing: border-box;
   }
 }
 

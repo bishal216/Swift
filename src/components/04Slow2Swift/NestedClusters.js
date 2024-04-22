@@ -12,7 +12,7 @@ const NestedClusters = memo(() => {
             className="mask-group-icon1"
             loading="lazy"
             alt=""
-            src="/mask-group@2x.png"
+            src="/mask-group1@2x.png"
           />
           <div className="node-families">
             <div className="branch-extensions">

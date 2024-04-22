@@ -4,10 +4,10 @@ import Subtree from "../components/03GameDevOnTheFly/Subtree";
 import NestedClusters from "../components/04Slow2Swift/NestedClusters";
 import Swystem from "../components/05Swystem/Swystem";
 import FrameProper from "../components/06Swimply/FrameProper";
-import ScaleNode from "../components/07Swchemes/ScaleNode";
+import Schwemes from "../components/07Swchemes/Schwemes";
 import DataTransformer from "../components/08FAQ/DataTransformer";
-import VectorNode from "../components/09GameFlying/VectorNode";
-import MapNode from "../components/10Footer/MapNode";
+import GameFlying from "../components/09GameFlying/GameFlying";
+import Footer from "../components/10Footer/Footer";
 import "./SwiftLP.css";
 
 const SwiftLP = () => {
@@ -19,10 +19,10 @@ const SwiftLP = () => {
       <NestedClusters />
       <Swystem/>
       <FrameProper />
-      <ScaleNode />
+      <Schwemes />
       <DataTransformer />
-      <VectorNode />
-      <MapNode />
+      <GameFlying />
+      <Footer />
     </div>
   );
 };

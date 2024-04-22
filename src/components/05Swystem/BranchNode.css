@@ -1,13 +1,42 @@
+/* .branch-node{
+  border: 2px solid red;
+}
+.branch-node>* {
+  border: 1px solid purple;
+}
+
+.branch-node>*>* {
+  border: 1px dashed yellow;
+}
+
+.branch-node>*>*>* {
+  border: 1px dotted green;
+} */
+.branch-node {
+  align-self: stretch;
+  justify-self: center;
+  padding: 0 var(--padding-45xl) var(--padding-155xl);
+  font-size: var(--text-2xl-font-bold-size);
+  color: var(--white-smoke);
+  font-family: var(--text-body-font-medium-full-caps);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+
 .ideate1 {
-  margin: 0;
-  width: 255px;
-  position: relative;
+  width: 25%;
   font-size: inherit;
   line-height: 40px;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
   flex-shrink: 0;
+  text-align: left;
+  max-width: 40%;
 }
 .parent-node1 {
   height: 27px;
@@ -20,50 +49,27 @@
   z-index: 1;
 }
 .envision-the-skies1 {
-  width: 255px;
+  width: 25%;
   position: relative;
   font-size: var(--text-body-font-medium-full-caps-size);
   line-height: 24px;
   text-align: left;
   display: inline-block;
 }
-.branch-node1,
-.leaf-node {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  max-width: 100%;
-}
-.leaf-node {
-  width: 917px;
-  justify-content: space-between;
-  gap: var(--gap-xl);
-}
-.branch-node1 {
-  align-self: stretch;
-  justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-155xl);
-  box-sizing: border-box;
-  text-align: right;
-  font-size: var(--text-2xl-font-bold-size);
-  color: var(--white-smoke);
-  font-family: var(--text-body-font-medium-full-caps);
-}
-@media screen and (max-width: 1050px) {
+
+
+@media screen and (max-width: 1080px) {
+  .branch-node {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    padding-bottom: var(--padding-155xl);
+  }
   .ideate1 {
     font-size: var(--font-size-10xl);
     line-height: 32px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .leaf-node {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-@media screen and (max-width: 450px) {
-  .ideate1 {
-    font-size: var(--font-size-3xl);
-    line-height: 24px;
+    max-width: 40%;
+    min-width: none;
   }
 }

@@ -139,3 +139,21 @@ body {
   --br-base: 16px;
   --br-5xl: 24px;
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sw {
+  color: var(--coquelicot-600-main);
+}
+row-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+column-flex{
+  display: flex;
+  flex-direction: column;
+}
