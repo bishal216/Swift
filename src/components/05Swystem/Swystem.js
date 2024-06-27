@@ -2,10 +2,12 @@ import { memo } from "react";
 import "./Swystem.css";
 import BranchNode from "./BranchNode";
 import { swystem_data } from "../../data/data";
+import React from "react";
+import PropTypes from "prop-types";
 const Swystem = memo(() => {
-    return (
-        <>
-        <section className="vector-node">
+  return (
+    <>
+      <section className="vector-node">
         <div className="star-node">
           <h1 className="the-swift-swystem-container">
             <span>{`The Swift `}</span>
@@ -26,14 +28,26 @@ const Swystem = memo(() => {
           src="/line-3-stroke.svg"
         />
       </section>
-      {swystem_data.system_process.map((process, index) => (
-          <BranchNode
+      {swystem_data.system_process.map((process) => (
+        <BranchNode
+          key={process.key}
           ideate={process.key}
           envisionTheSkiesEveryGrea={process.value}
         />
-        ))}
-      </>
-    );
+      ))}
+    </>
+  );
 });
+Swystem.propTypes = {
+  swystem_data: PropTypes.shape({
+    system_process: PropTypes.arrayOf(
+      PropTypes.shape({
+        key: PropTypes.string.isRequired,
+        value: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+  }).isRequired,
+};
 
+Swystem.displayName = "Swystem";
 export default Swystem;

@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { React, memo } from "react";
 import "./Footer.css";
 import { Footers } from "../../data/data";
 const Footer = memo(() => {
@@ -11,9 +11,19 @@ const Footer = memo(() => {
         </div>
 
         <div className="footer-socials">
-          {Footers.socials.map((footer, index) => (
-            <a href={footer.href} target="_blank">
-              <img className="" loading="lazy" src={footer.image} />
+          {Footers.socials.map((footer) => (
+            <a
+              href={footer.href}
+              target="_blank"
+              rel="noreferrer"
+              key={footer.index}
+            >
+              <img
+                className=""
+                loading="lazy"
+                src={footer.image}
+                alt="social-icon"
+              />
             </a>
           ))}
         </div>
@@ -67,5 +77,5 @@ const Footer = memo(() => {
     </footer>
   );
 });
-
+Footer.displayName = "Footer";
 export default Footer;

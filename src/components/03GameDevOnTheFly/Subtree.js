@@ -1,6 +1,6 @@
 import { memo } from "react";
 import "./Subtree.css";
-
+import React from 'react';
 const Subtree = memo(() => {
   return (
     <section className="subtree">
@@ -51,7 +51,7 @@ const Subtree = memo(() => {
               </div>
             </div>
             <div className="with-swift-its">
-              With Swift, it's not just about saving time; it's about leveraging
+              With Swift, it&apos;s not just about saving time; it&apos;s about leveraging
               time to your advantage, ensuring your game has the impact it
               deserves.
             </div>
@@ -68,5 +68,5 @@ const Subtree = memo(() => {
     </section>
   );
 });
-
+Subtree.displayName = "SubTree";
 export default Subtree;

@@ -1,4 +1,4 @@
-import { memo, useState } from "react";
+import { React, memo, useState } from "react";
 import "./DataTransformer.css";
 import { FAQs } from "../../data/data";
 
@@ -19,14 +19,17 @@ const DataTransformer = memo(() => {
     <section className="data-transformer">
       <div className="filter-node">
         <h1 className="got-questions">Got Questions?</h1>
-        <div className="weve-got-answers">We've Got Answers.</div>
+        <div className="weve-got-answers">We&apos;ve Got Answers.</div>
       </div>
       <div className="constant-node">
         {faqs.map((faq, index) => (
           <>
             <div className={`faq`} key={index}>
               <div className="col-flex">
-                <div className={`question ${faq.isOpen ? "open" : ""}`} onClick={() => toggleAnswer(index)}>
+                <div
+                  className={`question ${faq.isOpen ? "open" : ""}`}
+                  onClick={() => toggleAnswer(index)}
+                >
                   {faq.question}
                 </div>
                 <div className={`answer ${faq.isOpen ? "open" : ""}`}>
@@ -48,5 +51,5 @@ const DataTransformer = memo(() => {
     </section>
   );
 });
-
+DataTransformer.displayName = "DataTransformer";
 export default DataTransformer;

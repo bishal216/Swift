@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from "../components/01NavBar/NavBar";
 import Header  from "../components/02Header/Header";
 import Subtree from "../components/03GameDevOnTheFly/Subtree";

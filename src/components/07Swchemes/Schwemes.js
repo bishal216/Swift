@@ -1,6 +1,6 @@
 import { memo } from "react";
 import "./Schwemes.css";
-
+import React from 'react';
 const Schwemes = memo(() => {
   return (
     <section className="schwemes">
@@ -33,7 +33,7 @@ const Schwemes = memo(() => {
           <h2 className="game-art-and">Game Art and Design</h2>
           <div className="we-craft-visually">
             We craft visually stunning game art, including character design,
-            environment creation, and UI/UX design, to bring your game's world
+            environment creation, and UI/UX design, to bring your game&apos;s world
             to life with captivating visuals.
           </div>
         </div>
@@ -89,5 +89,5 @@ const Schwemes = memo(() => {
     </section>
   );
 });
-
+Schwemes.displayName = "Schwemes";
 export default Schwemes;

@@ -1,4 +1,4 @@
-import { memo } from "react";
+import { React, memo } from "react";
 import "./GameFlying.css";
 
 const GameFlying = memo(() => {
@@ -15,8 +15,8 @@ const GameFlying = memo(() => {
       </h1>
       <div className="lets-get-your-container">
         <p>
-          Let's get your game out of the hangar and into the skies. Click below
-          to schedule a discovery call with Swift, and let's turn your game
+          Let&apos;s get your game out of the hangar and into the skies. Click below
+          to schedule a discovery call with Swift, and let&apos;s turn your game
           concept into your next big win sooner than you think.
         </p>
       </div>
@@ -28,4 +28,5 @@ const GameFlying = memo(() => {
   );
 });
 
+GameFlying.displayName = "GameFlying";
 export default GameFlying;

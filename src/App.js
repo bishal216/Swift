@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React from 'react';
 import {
   Routes,
   Route,
@@ -6,6 +6,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import SwiftLP from "./pages/SwiftLP";
+import { useEffect } from "react";
 // import IPhone13Mini from "./pages/IPhone13Mini";
 
 function App() {
