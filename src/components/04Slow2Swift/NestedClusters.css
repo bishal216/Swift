@@ -906,7 +906,8 @@
 }
 
 .branch-shrinkage,
-.tree-expansion {
+.tree-expansion
+{
   margin: auto;
   display: flex;
   flex-direction: row;

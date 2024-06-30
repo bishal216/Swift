@@ -46,8 +46,8 @@ const NestedClusters = memo(() => {
                   </h1>
                   <div className="from-initial-brainstorming1">
                     From initial brainstorming to final launch, we ensure your
-                    project remains on the fast track, with you in the driver&apos;s
-                    seat.
+                    project remains on the fast track, with you in the
+                    driver&apos;s seat.
                   </div>
                 </div>
                 <div className="input-processor">
@@ -315,3 +315,4 @@ const NestedClusters = memo(() => {
 });
 NestedClusters.displayName = "NestedClusters";
 export default NestedClusters;
+

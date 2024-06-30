@@ -7,27 +7,6 @@ const Schwemes = memo(() => {
       <div className="body-cover">
         <img className="jcontroller-bg" alt="" src="/vector-62.svg" />
       </div>
-      {/* <div class="flex-container">
-        <div class="flex-item">
-          <div className="flex-item main-swcheme">
-            <h1>
-              <span>Here are the </span>
-              <span className="sw">Sw</span>
-              <span>chemes.</span>
-            </h1>
-            <p>Services designed with speed and efficiency in mind.</p>
-          </div>
-        </div>
-
-        <div class="flex-item">2</div>
-        <div class="flex-item">3</div>
-        <div class="flex-item">4</div>
-        <div class="flex-item">5</div>
-        <div class="flex-item">6</div>
-        <div class="flex-item">7</div>
-        <div class="flex-item">8</div>
-        <div class="flex-item">9</div>
-      </div> */}
       <div className="reflect-node">
         <div className="distort-node">
           <h2 className="game-art-and">Game Art and Design</h2>
@@ -89,5 +68,6 @@ const Schwemes = memo(() => {
     </section>
   );
 });
+
 Schwemes.displayName = "Schwemes";
 export default Schwemes;

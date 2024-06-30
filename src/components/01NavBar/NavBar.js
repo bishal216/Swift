@@ -1,32 +1,35 @@
-import React from "react";
+// TODO: Add functionality to the nav bar
 import "./NavBar.css";
-import { memo } from "react";
+import React, { memo } from "react";
 
+/**
+ * NavBar Component
+ * This component renders a sticky navigation bar with links to different sections of the page.
+ */
 const NavBar = memo(() => {
+  const navItems = [
+    { href: "#problems", text: "Problems" },
+    { href: "#solution", text: "Solution" },
+    { href: "#services", text: "Services" },
+    { href: "#faq", text: "FAQ" },
+  ];
+
   return (
-    <>
-      <header className="sticky-navbar">
-        <nav className="branch-merger">
-          <div className="nav_items4">
-            <div className="click-link4">Problems</div>
-          </div>
-          <div className="nav_items5">
-            <div className="click-link5">Solution</div>
-          </div>
-          <div className="nav_items6">
-            <div className="click-link6">Services</div>
-          </div>
-          <div className="nav_items7">
-            <div className="click-link7">FAQ</div>
-          </div>
-        </nav>
-        <div className="button4">
-          <div className="button5">book a call</div>
-        </div>
-      </header>
-    </>
+    <nav className="sticky-navbar">
+      <ul className="nav-list">
+        {navItems.map(({ href, text }) => (
+          <li className="nav-item" key={href}>
+            <a href={href} className="click-link">
+              {text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 });
 
+// Setting the display name for the component
 NavBar.displayName = "NavBar";
+
 export default NavBar;

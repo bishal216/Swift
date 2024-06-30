@@ -1,17 +1,4 @@
-.schwemes{
-  border: 2px solid red;
-}
-.schwemes>* {
-  border: 1px solid purple;
-}
 
-.schwemes>*>* {
-  border: 1px dashed yellow;
-}
-
-.schwemes>*>*>* {
-  border: 1px dotted green;
-}
 /* ================= */
 
 /* ================ */

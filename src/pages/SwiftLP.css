@@ -243,3 +243,9 @@
     box-sizing: border-box;
   }
 } */
+/* .swift-lp{
+  display: block;
+} */
+.swift-lp>*{
+  border: 1px solid red;
+}

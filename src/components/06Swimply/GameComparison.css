@@ -1,0 +1,264 @@
+.comparison-section {
+  /* Align the section to stretch */
+  align-self: stretch;
+  /* Set the display property to flex */
+  display: flex;
+  /* Set the flex direction to column */
+  flex-direction: column;
+  /* Set the alignment items to center */
+  align-items: center;
+  /* Set the justify content to center */
+  justify-content: center;
+  /* Set the position property to relative */
+  position: relative;
+  /* Set the gap property to var(--gap-5xs) */
+  gap: var(--gap-5xs);
+  /* Set the minimum height to 940px */
+  min-height: 940px;
+  /* Set the z-index property to 2 */
+  z-index: 2;
+  /* Set the text alignment to center */
+  text-align: center;
+  /* Set the font size property to var(--text-5xl-font-black-size) */
+  font-size: var(--text-5xl-font-black-size);
+  /* Set the color property to var(--white-smoke) */
+  color: var(--white-smoke);
+  /* Set the font family property to var(--text-body-font-medium-full-caps) */
+  font-family: var(--text-body-font-medium-full-caps);
+  /* Set the padding property to var(--padding-5xl) 0 */
+  padding: var(--padding-5xl) 0;
+}
+
+.background-image {
+  width: 1614.7px;
+  height: calc(100% - 6.4px);
+  position: absolute;
+  margin: 0 !important;
+  top: 3px;
+  bottom: 3.4px;
+  left: -89px;
+  max-height: 100%;
+  z-index: 1;
+}
+
+.comparison-container {
+  width: 1148px;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-93xl);
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.comparison-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-37xl);
+}
+
+.main-title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 80px;
+  font-weight: 900;
+  font-family: inherit;
+}
+
+.highlight {
+  color: var(--coquelicot-600-main);
+}
+
+.subtitle {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--text-lg-font-normal-size);
+  line-height: 28px;
+  color: var(--night-300);
+}
+
+.comparison-content {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* Prevent wrapping */
+  align-items: flex-start;
+  /* Align items at the start */
+  gap: 24px;
+  font-size: var(--text-2xl-font-bold-size);
+}
+
+.comparison-node {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  height: 100%;
+  flex: 1;
+  border-radius: var(--br-base);
+  padding: var(--padding-5xl);
+  min-height: 500px;
+  max-width: 100%;
+  /* text-align: left; */
+  /* Ensures left alignment of text */
+  background: linear-gradient(180deg, rgba(58, 63, 63, 0.7), rgba(58, 63, 63, 0));
+  /* Gradient background for nodes */
+}
+
+.comparison-node:nth-child(2) {
+  background: linear-gradient(180deg, rgba(242, 62, 13, 0.6), rgba(242, 62, 13, 0.2));
+  /* Special background for the highlighted node */
+  box-shadow: 0 0 20px 3px rgba(242, 62, 13, 0.6), 0 0 4px 1px rgba(242, 62, 13, 0.45);
+  /* Initial box-shadow */
+  animation: glint-shadow 5s infinite ease-in-out;
+  /* Applying the glint shadow animation */
+}
+
+/* Animation keyframes for glint shadow */
+@keyframes glint-shadow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px 3px rgba(242, 62, 13, 0.6), 0 0 4px 1px rgba(242, 62, 13, 0.45);
+  }
+
+  50% {
+    box-shadow: 0 0 20px 3px rgba(242, 62, 13, 0.8), 0 0 4px 1px rgba(242, 62, 13, 0.65);
+  }
+}
+
+
+.comparison-title {
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100px;
+}
+
+.comparison-items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  margin-right: 12px;
+  /* Consistent gap value */
+}
+
+.item-value {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-size: 14px;
+  /* Smaller font size */
+}
+
+.comparison-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  /* Consistent gap value */
+  margin-bottom: 24px;
+  /* Adds gap between list items */
+  line-height: 1.5;
+  /* Ensures sufficient space between lines */
+  width: 100%;
+  /* Ensures items take full width */
+  word-wrap: break-word;
+  /* Ensures long words break */
+  text-align: left;
+  /* Ensures text is left-aligned */
+  font-size: 14px;
+  /* Smaller font size */
+}
+
+@media screen and (max-width: 750px) {
+  .comparison-content {
+    flex-direction: column;
+    gap: 24px;
+    padding: auto;
+    align-self: stretch;
+  }
+
+  .comparison-content:nth-child(3) {
+    order: 1;
+  }
+
+  .comparison-content:nth-child(1) {
+    order: 2;
+  }
+
+  .comparison-content:nth-child(2) {
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .comparison-container {
+    gap: var(--gap-37xl);
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main-title {
+    font-size: var(--font-size-21xl);
+    line-height: 48px;
+  }
+
+  .comparison-title {
+    font-size: var(--font-size-10xl);
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .comparison-header,
+  .comparison-container {
+    gap: var(--gap-9xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-title {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+
+  .subtitle {
+    font-size: var(--font-size-mid);
+    line-height: 22px;
+  }
+
+  .comparison-title {
+    font-size: var(--font-size-3xl);
+    line-height: 24px;
+  }
+}

@@ -2,19 +2,20 @@ import { memo } from "react";
 import "./BranchNode.css";
 import React from "react";
 import PropTypes from "prop-types";
-const BranchNode = memo(({ ideate, envisionTheSkiesEveryGrea }) => {
+
+const BranchNode = memo(({ title, content }) => {
   return (
     <section className="branch-node">
-      <h1 className="ideate1">{ideate}</h1>
-      <div className="parent-node1" />
-      <div className="envision-the-skies1">{envisionTheSkiesEveryGrea}</div>
+      <h1 className="branch-node-title">{title}</h1>
+      <div className="branch-node-divider" />
+      <div className="branch-node-content">{content}</div>
     </section>
   );
 });
 
 BranchNode.propTypes = {
-  ideate: PropTypes.string.isRequired,
-  envisionTheSkiesEveryGrea: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 BranchNode.displayName = "BranchNode";

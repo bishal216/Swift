@@ -15,7 +15,7 @@ body {
   /* fonts */
   --text-body-font-medium-full-caps: Barlow;
   --text-base-leading-6-font-bold: Inter;
-  --default-bold-subheadline: "SF Pro Text";
+  --default-bold-sub-headline: "SF Pro Text";
 
   /* font sizes */
   --text-body-font-medium-full-caps-size: 16px;
@@ -36,7 +36,7 @@ body {
   --font-size-33xl: 52px;
   --font-size-12xl: 31px;
   --text-4xl-font-black-size: 61px;
-  --default-bold-subheadline-size: 15px;
+  --default-bold-sub-headline-size: 15px;
   --text-sm-font-regular-size: 14px;
   --font-size-9xs-5: 3.5px;
 
@@ -156,4 +156,16 @@ row-flex{
 column-flex{
   display: flex;
   flex-direction: column;
+}
+
+nav, header, section, footer {
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+}
+
+.debug>*{
+  border: 1px dotted yellowgreen;
 }
