@@ -50,6 +50,8 @@
 /* ========================= */
 .flex-container {
   display: flex;
+  flex-direction: column;
+  gap:72px;
   flex-wrap: wrap;
 }
 
@@ -62,7 +64,7 @@
   border: 1px solid black;
 }
 
-.flex-item:nth-child(1) { order: 5; }
+/* .flex-item:nth-child(1) { order: 5; }
 .flex-item:nth-child(2) { order: 1; }
 .flex-item:nth-child(3) { order: 2; }
 .flex-item:nth-child(4) { order: 3; }
@@ -70,7 +72,7 @@
 .flex-item:nth-child(6) { order: 9; }
 .flex-item:nth-child(7) { order: 7; }
 .flex-item:nth-child(8) { order: 8; }
-.flex-item:nth-child(9) { order: 4; }
+.flex-item:nth-child(9) { order: 4; } */
 
 /* ========================= */
 .main-swcheme, .here-are-the-container {

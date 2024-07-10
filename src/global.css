@@ -6,11 +6,6 @@
   font-weight: 600;
 }
 
-body {
-  margin: 0;
-  line-height: normal;
-  background-color: black;
-}
 :root {
   /* fonts */
   --text-body-font-medium-full-caps: Barlow;
@@ -93,6 +88,7 @@ body {
   --gap-8xl-4: 27.4px;
 
   /* Paddings */
+  --p72: 72px;
   --padding-45xl: 64px;
   --padding-5xs: 8px;
   --padding-6xs: 7px;
@@ -145,27 +141,30 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  line-height: normal;
+  background-color: black;
+  width: 100%;
+  overflow-x: hidden;
+}
 .sw {
   color: var(--coquelicot-600-main);
-}
-row-flex{
-  display: flex;
-  flex-direction: row;
-}
-
-column-flex{
-  display: flex;
-  flex-direction: column;
 }
 
 nav, header, section, footer {
   position: relative;
+  /* max-width: 1440px; */
 }
 
 a{
   text-decoration: none;
+  color: var(--white-smoke);
+}
+
+.debug{
+  border: 1px dotted yellowgreen;
 }
 
 .debug>*{
-  border: 1px dotted yellowgreen;
+  border: 1px solid crimson;
 }

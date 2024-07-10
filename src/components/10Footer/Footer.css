@@ -1,85 +1,89 @@
-/* .social-links {
-  border: 1px solid purple;
+:root {
+  --size-small: 8px;
+  --size-medium: 16px;
+  --size-large: 24px;
+  --size-xlarge: 32px;
+  --size-xxlarge: 48px;
+  --size-3xlarge: 72px;
+  --padding-small: 8px;
+  --padding-medium: 16px;
+  --padding-large: 24px;
+  --padding-xlarge: 32px;
+  --padding-top: 72px;
+  --gap-small: 12px;
+  --gap-medium: 24px;
+  --gap-large: 32px;
+  --border-radius: 4px;
 }
-
-.social-links>* {
-  border: 1px dashed yellow;
-}
-
-.social-links>*>* {
-  border: 1px dotted green;
-} */
 
 /* =========================== */
 /* Font */
-.footer {
+footer {
   text-align: left;
-  font-size: var(--text-body-font-medium-full-caps-size);
-  color: var(--night-300);
-  font-family: var(--text-body-font-medium-full-caps);
-  max-width: 100%;
-}
+  font-size: var(--size-medium);
+  color: #abb5b3;
+  font-family: Barlow;
 
-/* Footer */
-.footer {
-  align-self: center;
-  flex-direction: column;
   display: flex;
-  max-width: 100%;
-  gap: 24px;
-  padding-top: 72px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: var(--size-large);
+  align-self: center;
+  padding-top: var(--size-3xlarge);
+  padding-bottom: var(--size-small);
 }
 
 /* ==================================== */
 .social-links {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.social-links>* {
+.footer_logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo,
+.footer-logo-text {
+  max-height: 40px;
+}
+
+.footer_socials {
   max-height: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 12px;
+  gap: var(--gap-small);
 }
 
-.footer-logo>img{
-  height: 40px;
-}
 /* ================================ */
 .form {
   display: flex;
-  flex-direction: row;
-  gap: 72px;
+  justify-content: space-around;
   width: 100%;
 }
 
 .main-form {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-5xl);
-  min-width: 359px;
+  align-items: center;
+  gap: var(--gap-medium);
   max-width: 100%;
-  font-size: var(--text-body-font-medium-full-caps-size);
 }
 
 .text-field {
   display: flex;
-  flex-direction: row;
   max-width: 100%;
   justify-content: flex-start;
-  box-sizing: border-box;
-  width: 360px;
+  min-width: min(400px, 100svh);
   background-color: var(--night-900);
-  border-radius: var(--br-5xs);
+  border-radius: var(--border-radius);
   align-items: center;
-  padding: var(--padding-5xs) var(--padding-xs);
   font-family: var(--text-base-leading-6-font-bold);
   color: var(--night-300);
 }
@@ -100,12 +104,10 @@
   color: var(--coquelicot-50);
   text-align: left;
   cursor: pointer;
-  padding: var(--padding-5xs) var(--padding-base);
+  padding: var(--padding-small) var(--padding-medium);
   background-color: var(--coquelicot-600-main);
-  border-radius: var(--br-5xs);
-  overflow: hidden;
+  border-radius: var(--border-radius);
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   white-space: nowrap;
@@ -117,67 +119,48 @@
 }
 
 .about-us {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 48px;
-}
+  flex: 1;
 
-.footer-title {
   display: flex;
-  flex-direction: column;
-  gap: 12px;
+  justify-content: space-evenly;
 }
 
 .lh-24 {
   line-height: 24px;
 }
 
-.footer-title>* {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-5xl);
-  color: var(--white-smoke);
-  font-family: var(--text-base-leading-6-font-bold);
-}
-
 .image-assembler {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-5xl);
+  gap: var(--gap-large);
 }
 
 @media screen and (max-width: 750px) {
-
   .form {
     flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: var(--gap-medium);
   }
 
-  .main-form {
+  .main-form,
+  .about-us {
     min-width: 100%;
   }
 }
 
 /* ======================= */
 .foot-note {
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 1px solid var(--white-smoke);
+  line-height: 24px;
 }
 
 @media screen and (max-width: 750px) {
-
   .foot-note {
     flex-direction: column;
-    justify-items: left;
   }
 }
 

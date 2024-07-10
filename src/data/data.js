@@ -52,7 +52,34 @@ const swimply = {
     "Constant micromanagement",
   ],
 };
-
+const schwemes_data = {
+  sections: [
+    {
+      id: 1,
+      title: "Game Art and Design",
+      description: "We craft visually stunning game art, including character design, environment creation, and UI/UX design, to bring your game's world to life with captivating visuals.",
+      image: "/vector-62.svg",
+    },
+    {
+      id: 2,
+      title: "Story and Content Creation",
+      description: "We develop compelling narratives, quests, and dialogues that captivate players, driving engagement and retention through rich storytelling.",
+      image: "/rectangle.png",
+    },
+    {
+      id: 3,
+      title: "Game Development",
+      description: "We provide end-to-end game development services, from coding and programming to integrating physics and AI, ensuring a seamless, engaging gameplay experience.",
+      image: "/union.svg",
+    },
+    {
+      id: 4,
+      title: "Sound Design and Music",
+      description: "We create immersive audio experiences with custom sound effects and original music compositions, enhancing the emotional impact and immersion of your game.",
+      image: "/ellipse-1.svg",
+    },
+  ]
+};
 const FAQs = [
   {
     question: "How do you ensure project deadlines are met?",
@@ -77,6 +104,7 @@ const FAQs = [
 ];
 
 const Footers = {
+  webhook_url: "https://discord.com/api/webhooks/1260603947312218152/Hhpflzc8xmjsNkGrEZI-qi6pOk36PBh0ajuJFQgZ_oqmShcqy69LL-plS1__vlLRcJRJ",
   socials: [
     {
       image: "/vector-63.svg",
@@ -97,4 +125,4 @@ const Footers = {
   },
 };
 
-export { swystem_data, swimply, FAQs, Footers };
+export { swystem_data, swimply, schwemes_data, FAQs, Footers };

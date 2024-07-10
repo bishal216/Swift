@@ -201,22 +201,17 @@
 
 @media screen and (max-width: 750px) {
   .comparison-content {
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 24px;
     padding: auto;
-    align-self: stretch;
+    align-self: center;
   }
-
-  .comparison-content:nth-child(3) {
-    order: 1;
-  }
-
-  .comparison-content:nth-child(1) {
-    order: 2;
-  }
-
-  .comparison-content:nth-child(2) {
-    order: 3;
+  .comparison-content>*{
+    min-width: fit-content;
+    flex: 1;
+    width: 100%;
   }
 }
 

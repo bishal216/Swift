@@ -2,7 +2,7 @@
   align-self: stretch;
   justify-self: center;
   padding: 0 var(--padding-45xl) var(--padding-155xl);
-  font-size: var(--text-2xl-font-bold-size);
+  font-size: 32px;
   color: var(--white-smoke);
   font-family: var(--text-body-font-medium-full-caps);
   display: flex;
@@ -39,8 +39,8 @@
 .branch-node-content {
   width: 25%;
   position: relative;
-  font-size: var(--text-body-font-medium-full-caps-size);
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 36px;
   text-align: left;
   display: inline-block;
 }

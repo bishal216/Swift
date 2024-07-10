@@ -2,6 +2,10 @@ import { React, memo } from "react";
 import "./GameFlying.css";
 
 const GameFlying = memo(() => {
+  const handleScrollToFooter = (event) => {
+    event.preventDefault();
+    document.getElementById("footer").scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <section className="game-flying">
       <div className="game-flying-bgs">
@@ -21,7 +25,7 @@ const GameFlying = memo(() => {
         </p>
       </div>
 
-      <button className="schedule-button">
+      <button className="schedule-button" onClick={handleScrollToFooter}>
         <p>Schedule a Call</p>
       </button>
     </section>

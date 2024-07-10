@@ -24,7 +24,7 @@ const GameComparison = memo(() => {
       {/* Render the title of the comparison node */}
       <h2 className="comparison-title">{title}</h2>
       {/* Render a list of values for the comparison node */}
-      <ul className="comparison-items debug">
+      <ul className="comparison-items">
         {data.map((value, index) => (
           <li className="comparison-item" key={`${keyPrefix}-${index}`}>
             {/* Render an icon */}

@@ -5,7 +5,7 @@ import GameDevOverview from "../components/03GameDevOnTheFly/GameDevOverview";
 import NestedClusters from "../components/04Slow2Swift/NestedClusters";
 import Swystem from "../components/05Swystem/Swystem";
 import GameComparison from "../components/06Swimply/GameComparison";
-import Schwemes from "../components/07Swchemes/Schwemes";
+// import Schwemes from "../components/07Swchemes/Schwemes";
 import DataTransformer from "../components/08FAQ/DataTransformer";
 import GameFlying from "../components/09GameFlying/GameFlying";
 import Footer from "../components/10Footer/Footer";
@@ -38,7 +38,7 @@ const SwiftLP = () => {
       {/* FrameProper */}
       <GameComparison />
       {/* Schwemes */}
-      <Schwemes />
+      {/* <Schwemes /> */}
       {/* DataTransformer */}
       <DataTransformer />
       {/* GameFlying */}
