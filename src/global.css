@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 @font-face {
   font-family: "SF Pro Text";
   src: url("/public/FontsFree-Net-SFProDisplay-Semibold.ttf");
@@ -136,35 +137,47 @@
   --br-5xl: 24px;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
+
 body {
   line-height: normal;
   background-color: black;
   width: 100%;
   overflow-x: hidden;
+  max-width: 90%;
+  margin: auto;
 }
+
 .sw {
   color: var(--coquelicot-600-main);
 }
 
-nav, header, section, footer {
+nav,
+header,
+section,
+footer {
   position: relative;
   /* max-width: 1440px; */
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--white-smoke);
 }
 
-.debug{
-  border: 1px dotted yellowgreen;
+.debug {
+  border: 2px dotted yellowgreen;
 }
 
-.debug>*{
-  border: 1px solid crimson;
+.debug>* {
+  border: 2px solid crimson;
+}
+
+.debug>*>* {
+  border: 2px dashed aliceblue;
 }

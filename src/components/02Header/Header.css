@@ -1,31 +1,53 @@
-.header_container {
+.main-header {
     width: 100%;
+    height: 56px;
     margin-top: 12px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: var(--padding-5xs) var(--padding-6xs);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    align-items: center;
+
 }
 
-.header_logo-container {
+@media screen and (max-width: 1280px) {
+    .main-header {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-header {
+        display: none;
+    }
+}
+
+.header-logo-container,
+.header-main-logo,
+.header-logo-text {
+    pointer-events: auto;
+    /* Ensure logo area remains clickable */
+}
+
+.header-logo-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    height: 100%;
 }
 
-.header_main-logo {
-    height: 40px;
-    /* Adjust as needed */
-    margin-right: var(--gap-5xs);
+.header-main-logo {
+    height: 80%;
 }
 
-.header_logo-text {
-    height: 40px;
-    /* Adjust as needed */
+.header-logo-text {
+    height: 60%;
 }
 
-.header_button {
+.header-button {
     cursor: pointer;
+    z-index: 200;
     border: 1px solid var(--burning-orange-400-main);
     padding: var(--padding-5xs) var(--padding-mini);
     background-color: transparent;
@@ -36,28 +58,18 @@
     align-items: flex-start;
     justify-content: flex-start;
     white-space: nowrap;
-    z-index: 1;
 }
 
-.header_button:hover {
+.header-button:hover {
     background-color: var(--color-chocolate-200);
     border: 1px solid var(--color-chocolate-100);
     box-sizing: border-box;
 }
 
-.header_button-text {
-    position: relative;
-    font-size: var(--text-body-font-medium-full-caps-size);
-    line-height: 24px;
+.header-button-text {
     text-transform: uppercase;
     font-weight: 500;
     font-family: var(--text-body-font-medium-full-caps);
     color: var(--burning-orange-400-main);
     text-align: left;
-}
-
-@media screen and (max-width: 1080px) {
-    .header_container {
-        display: none;
-    }
 }

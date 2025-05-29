@@ -1,19 +1,9 @@
-/* :root {
-  --night-900: #000000;
-  --night-700: #333333;
-  --color-gray-100: #f5f5f5;
-  --coquelicot-50: #ff5733;
-  --br-5xs: 4px;
-  --text-body-font-medium-full-caps-size: 16px;
-  --text-body-font-medium-full-caps: Arial, sans-serif;
-} */
-
 .game-dev-overview {
-  min-height: 1172px;
-  width: 100%;
+  margin-top: 48px;
+  min-height: 800px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
   font-size: var(--text-body-font-medium-full-caps-size);
@@ -22,28 +12,29 @@
   background: radial-gradient(50% 50% at 50% 50%, rgba(58, 63, 63, 0.3), rgba(9, 10, 10, 0));
 }
 
+.game-dev-overview-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../public/game-dev-overview.svg") repeat;
+}
+
 .header {
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding: var(--padding-205xl) var(--padding-xl) 0; */
+  justify-content: space-around;
   gap: var(--gap-141xl);
   width: 100%;
-}
-
-.header__icon {
-  width: 103.19%;
-  height: calc(100% - 5.8px);
-  position: absolute;
-  top: 3px;
-  right: -1.6%;
-  bottom: 2.8px;
-  left: -1.6%;
 }
 
 .header__content {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   gap: var(--gap-29xl);
   max-width: 1128px;
@@ -155,7 +146,7 @@
 }
 
 .benefits__description {
-  width: 480px;
+  max-width: min(480px, 100%);
   font-size: var(--text-body-font-medium-full-caps-size);
   line-height: 24px;
   color: var(--white-smoke);

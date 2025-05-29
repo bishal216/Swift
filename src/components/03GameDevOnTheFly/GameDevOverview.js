@@ -33,12 +33,8 @@ const GameDevOverview = memo(() => {
 
   return (
     <section className="game-dev-overview">
+      <div className="game-dev-overview-overlay"></div>
       <header className="header">
-        <img
-          className="header__icon"
-          alt="Descendant Nodes"
-          src="/descendant-nodes.svg"
-        />
         <div className="header__content">
           <div className="header__connection">
             <p className="header__text-gradient">
@@ -79,7 +75,7 @@ const GameDevOverview = memo(() => {
           it deserves.
         </p>
       </section>
-{/* TODO: Add Down Animation animation */}
+      {/* TODO: Add Down Animation animation */}
       <img
         className="footer__icon"
         loading="lazy"

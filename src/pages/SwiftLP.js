@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import NavBar from "../components/01NavBar/NavBar";
-import Header  from "../components/02Header/Header";
+import Header from "../components/02Header/Header";
 import GameDevOverview from "../components/03GameDevOnTheFly/GameDevOverview";
 import NestedClusters from "../components/04Slow2Swift/NestedClusters";
 import Swystem from "../components/05Swystem/Swystem";
@@ -26,7 +26,7 @@ const SwiftLP = () => {
     // Root div for the Swift landing page
     <div className="swift-lp">
       {/* Navigation bar */}
-      <NavBar/>
+      <NavBar />
       {/* Header */}
       <Header />
       {/* Game development overview */}
@@ -34,7 +34,7 @@ const SwiftLP = () => {
       {/* Nested clusters */}
       <NestedClusters />
       {/* Swystem */}
-      <Swystem/>
+      <Swystem />
       {/* FrameProper */}
       <GameComparison />
       {/* Schwemes */}

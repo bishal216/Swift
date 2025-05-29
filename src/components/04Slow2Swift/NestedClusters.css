@@ -1,136 +1,74 @@
-.from-slow-to1 {
-  width: 160px;
-  position: relative;
-  line-height: 24px;
+.Slow2Swift {
+  padding: 112px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 112px;
+  font-family: Barlow;
+}
+
+.slow-to-swift {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.slow-to-swift-header {
   text-transform: uppercase;
   font-weight: 500;
-  background: linear-gradient(89.9deg, #f23e0d, #fb793c);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
+  color: linear-gradient(89.9deg, #f23e0d, #fb793c);
+  color: var(--coquelicot-600-main);
 }
 
-.mask-group-icon1 {
-  width: 1128px;
-  height: 296px;
-  position: absolute;
-  margin: 0 !important;
-  top: calc(50% - 176px);
-  left: calc(50% - 564px);
-  object-fit: cover;
-}
-
-.are-slow-iterations1 {
-  margin: 0;
+.slow-to-swift-description {
+  /* margin: 0;
   align-self: stretch;
+  height: 80px;
   position: relative;
   font-size: inherit;
   line-height: 40px;
   font-weight: 400;
   font-family: inherit;
-}
-
-.game-development-is3 {
+  display: inline-block; */
+  color: var(--Night-50, #F5F6F6);
   align-self: stretch;
-  position: relative;
-  font-size: var(--text-lg-font-normal-size);
-  line-height: 28px;
-  color: var(--night-300);
+  /* text-2xl/font-normal */
+  font-family: Barlow;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  /* 111.111% */
 }
 
-.branch-extensions,
-.node-families {
+.slow-iterations {
   align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.branch-extensions {
-  align-items: center;
-  gap: var(--gap-37xl);
-}
-
-.node-families {
-  align-items: flex-start;
-  z-index: 1;
-  margin: auto;
-}
-
-.ancestor-lines,
-.tree-diversity {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.tree-diversity {
-  align-self: stretch;
-  padding: var(--padding-29xl) 0 0;
-  position: relative;
-  font-size: var(--text-2xl-font-bold-size);
-}
-
-.ancestor-lines {
-  width: 744px;
-  gap: var(--gap-45xl);
-  max-width: 100%;
-}
-
-.nested-clusters {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl) var(--padding-93xl);
-  box-sizing: border-box;
-  max-width: 100%;
+  color: var(--Night-50, #F5F6F6);
   text-align: center;
-  font-size: var(--text-body-font-medium-full-caps-size);
-  color: var(--white-smoke);
-  font-family: var(--text-body-font-medium-full-caps);
+
+  font-family: Barlow;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+
+  padding-top: 80px;
+  background: url("../../../public/slow-to-swift-overlay.png");
+  background-size: 100% 100%;
+  background-repeat: repeat;
 }
 
-@media screen and (max-width: 1050px) {
-  .are-slow-iterations1 {
-    font-size: var(--font-size-10xl);
-    line-height: 32px;
-  }
+.game-development-issue {
+  color: var(--Night-300, #ABB5B3);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-@media screen and (max-width: 750px) {
-  .branch-extensions {
-    gap: var(--gap-9xl);
-  }
-
-  .ancestor-lines {
-    gap: var(--gap-13xl);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .are-slow-iterations1 {
-    font-size: var(--font-size-3xl);
-    line-height: 24px;
-  }
-
-  .game-development-is3 {
-    font-size: var(--font-size-mid);
-    line-height: 22px;
-  }
-
-  .ancestor-lines {
-    gap: var(--gap-base);
-  }
-
-  .nested-clusters {
-    padding-bottom: var(--padding-54xl);
-    box-sizing: border-box;
-  }
-}
 
 .node-shrinkage-icon,
 .tree-contraction-icon {
@@ -150,33 +88,11 @@
   z-index: 5;
 }
 
-.but-youre-in {
-  align-self: stretch;
-  position: relative;
-  line-height: 24px;
-  text-transform: uppercase;
-  font-weight: 500;
-  background: linear-gradient(89.9deg, #f23e0d, #fb793c);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .fast1 {
   color: var(--coquelicot-600-main);
 }
 
-.we-are-revolutionizing-container1 {
-  margin: 0;
-  align-self: stretch;
-  height: 80px;
-  position: relative;
-  font-size: inherit;
-  line-height: 40px;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-}
+
 
 .from-initial-brainstorming1 {
   width: 456px;
@@ -906,8 +822,7 @@
 }
 
 .branch-shrinkage,
-.tree-expansion
-{
+.tree-expansion {
   margin: auto;
   display: flex;
   flex-direction: row;

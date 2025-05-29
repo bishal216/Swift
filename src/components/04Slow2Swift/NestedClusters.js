@@ -3,43 +3,32 @@ import "./NestedClusters.css";
 import React from "react";
 const NestedClusters = memo(() => {
   return (
-    <>
-      <section className="nested-clusters">
-        <div className="ancestor-lines">
-          <div className="from-slow-to1">From Slow to Swift.</div>
-          <div className="tree-diversity">
-            <img
-              className="mask-group-icon1"
-              loading="lazy"
-              alt=""
-              src="/mask-group1@2x.png"
-            />
-            <div className="node-families">
-              <div className="branch-extensions">
-                <h1 className="are-slow-iterations1">
-                  Are slow iterations and extended deadlines stifling your
-                  creativity and market entry?
-                </h1>
-                <div className="game-development-is3">
-                  Game development is notorious for its complexity,
-                  time-consuming processes, and unpredictable delays.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <section className="Slow2Swift">
+      <div className="slow-to-swift debug">
+        <p className="slow-to-swift-header">From Slow to Swift.</p>
 
-      <section className="tree-expansion">
+        <h1 className="slow-to-swift-description">
+          <span>
+            {`Are slow iterations and extended deadlines stifling your creativity
+            and market entry?`}
+          </span>
+        </h1>
+
+        <p className="game-development-issue">
+          Game development is notorious for its complexity, time-consuming
+          processes, and unpredictable delays.
+        </p>
+      </div>
+
+      <div className="tree-expansion debug">
+        <p className="slow-to-swift-header">But, you’re in luck</p>
+        <div></div>
         <div className="branch-shrinkage">
-          <img className="node-shrinkage-icon" alt="" src="/vector-1.svg" />
-          <img className="tree-contraction-icon" alt="" src="/vector-2.svg" />
           <div className="branch-trimming">
             <div className="node-pruning">
-              <div className="but-youre-in">But, you’re in luck</div>
               <div className="branch-regrowth">
                 <div className="node-regrowth">
-                  <h1 className="we-are-revolutionizing-container1">
+                  <h1 className="slow-to-swift-description">
                     <span>{`We are revolutionizing game development with our `}</span>
                     <span className="fast1">fast</span>
                     <span>{`-paced, collaborative approach. `}</span>
@@ -309,10 +298,9 @@ const NestedClusters = memo(() => {
             <img className="group-node-icon" alt="" src="/vector-61.svg" />
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 });
 NestedClusters.displayName = "NestedClusters";
 export default NestedClusters;
-
